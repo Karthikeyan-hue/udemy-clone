@@ -1,0 +1,245 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Gabriela", serif;
+}
+
+.navbar__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    border-bottom: solid black 1px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
+}
+
+.navbar__s1__title{
+    color: #A635EF;
+}
+
+.navbar__s2{
+    border: solid black 1px;
+    width: 70%;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.navbar__s2 input{
+    width: 100%;
+    border: none;
+    font-size: 16px;
+    background-color: transparent;
+}
+
+.navbar__s2 input:focus{
+    outline: none;
+}
+
+.navbar__s3{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+}
+
+.navbar__s3 p{
+    cursor: pointer;
+    padding-top: 10px;
+}
+
+.navbar__s3 p:hover{
+    background-color: #EDE5F9;
+    color: #892DE1;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.navbar__s3__mylearning{
+    position: relative;
+}
+
+.navbar__s3__popup{
+    position: absolute;
+    background-color: white;
+    border: solid black 1px;
+    width: 100px;
+    top: 120%;
+    right: 0;
+    padding: 15px;
+    display: none;
+}
+
+.navbar__s3__mylearning:hover .navbar__s3__popup{
+    display: block;
+}
+
+.navbar__s3 i{
+    font-size: 20px;
+}
+
+.categories__container{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    border-bottom: solid black 1px;
+}
+
+.categories__container p{
+    background-color: #A635EF;
+    color: white;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.categories__container p:hover{
+    background-color: transparent;
+    color: black;
+    border: solid black 1px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.banner__container{
+    position: relative;
+}
+
+.banner__container img{
+    width: 100%;
+}
+
+.banner__container__text{
+    width: 20%;
+    background-color: white;
+    padding: 25px;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+
+.banner__container__text h1, p{
+    padding-bottom: 10px;
+}
+
+.banner__container__text h3{
+    background-color: #A635EF;
+    color: white;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.banner__container__text h3:hover{
+    background-color: transparent;
+    color: black;
+    border: solid black 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.recommended__container{
+    padding: 15px;
+}
+
+.recommended__cardsection__container{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;;
+}
+
+.recommended__cardsection{
+    width: 330px;
+}
+
+.recommended__cardsection img{
+    width: 100%;
+    height: 50%;
+}
+
+.recommended__cardsection__premiumbtn{
+    background-color: #5022C3;
+    color: white;
+    border: none;
+    padding: 7px 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-weight: 800;
+    margin-right: 5px;
+}
+
+.recommended__cardsection__bestsellerbtn{
+    background-color: #C2E9EB;
+    color: #0D5261;
+    border: none;
+    padding: 7px 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-weight: 800;
+}
+
+.recommended__topics__container{
+    padding: 15px;
+}
+
+.topics__container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.topics__container p{
+    border: solid gray 1px;
+    padding: 10px;
+    flex-grow: 1;
+    flex-basis: 25%;
+}
+
+.topics__container p:hover{
+    background-color: #A635EF;
+    color: white;
+    cursor: pointer;
+}
+
+.popular__container{
+    padding: 15px;
+}
+
+.popular__cardsection{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
+
+.footer__container{
+    background-color: black;
+    color: white;
+    padding: 35px;
+}
+
+.footer__container1{
+    display: flex;
+    gap: 30px;
+}
+
+.footer__container p{
+    padding-top: 15px;
+}
+
+.footer__container2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
