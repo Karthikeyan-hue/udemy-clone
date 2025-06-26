@@ -99,9 +99,11 @@ body{
     color: white;
     padding: 10px;
     border-radius: 25px;
+    border: solid #A635EF 1px;
 }
 
 .categories__container p:hover{
+    transition: 1s;
     background-color: transparent;
     color: black;
     border: solid black 1px;
